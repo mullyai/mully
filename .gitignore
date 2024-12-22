@@ -2,3 +2,5 @@
 **.pyc
 .vscode/
 .venv/
+.ruff_cache/
+src/mully/core/
