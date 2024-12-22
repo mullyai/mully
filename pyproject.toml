@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "mully"
+version = "0.1.0"
+description = "Synthetic Data Generation"
+authors = ["eneyi <ruth.ikwu@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "<=3.13,>=3.12"
+pydantic = "^2.10.4"
+numpy = "2.2.0"
+pydantic-settings = "^2.7.0"
+crewai = "^0.86.0"
+crewai-tools = "^0.17.0"
+pandas = "^2.2.3"
+ruff = "^0.8.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
