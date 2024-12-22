@@ -11,6 +11,33 @@
         "primary": "#2AB673",
         "light": "#55D799",
         "dark": "#117866"
-    }
+    },
+    "navigation": [
+    {
+      "group": "Get Started",
+      "pages": [
+        "get_started/introduction",
+        "get_started/installation",
+        "get_started/quickstart"
+      ]
+    },
+    {
+      "group": "Concepts",
+      "pages": [
+        "concepts/generation",
+        "concepts/evaluation",
+        "concepts/featurization"
+      ]
+    },
+    {
+        "group": "Components",
+        "pages": [
+          "components/datasets",
+          "components/features",
+          "components/guidelines",
+          "components/violations"
+        ]
+      }
+]
 
 }
