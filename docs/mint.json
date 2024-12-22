@@ -1,0 +1,16 @@
+{
+    "name": "Mully",
+    "theme": "prism",
+    "logo": {
+        "light": "assets/logo.png",
+        "dark": "assets/logo.png",
+        "href": "https://yourcompany.com"
+    },
+    "favicon": "",
+    "colors": {
+        "primary": "#2AB673",
+        "light": "#55D799",
+        "dark": "#117866"
+    }
+
+}
