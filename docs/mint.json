@@ -12,28 +12,6 @@
         "dark": "#e8178f",
         "light": "#c23d8d"
     },
-    "tabs": [
-    {
-        "name": "Documentation",
-        "url": "get_started"
-    },
-    {
-        "name": "Evaluate",
-        "url": "concepts/evaluation"
-    },
-    {
-        "name": "Generate",
-        "url": "concepts/generation"
-    },
-    {
-        "name": "Use Cases",
-        "url": "examples"
-    },
-    {
-        "name": "API Reference",
-        "url": "api"
-    }
-],
     "topbarLinks": [
         {
             "name": "Community",
