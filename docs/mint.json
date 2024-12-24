@@ -15,15 +15,34 @@
     "tabs": [
     {
         "name": "Documentation",
-        "url": "get_started"
+        "url": "get_started",
+        "navigation": [
+            { 
+                "group": "Getting Started",
+                "pages": [
+                    {
+                        "name": "Introduction",
+                        "url": "get_started/introduction"
+                    },
+                    {
+                        "name": "Installation",
+                        "url": "get_started/installation"
+                    },
+                    {
+                        "name": "Quick Start",
+                        "url": "get_started/quick_start"
+                    }
+                ]
+            }
+        ]
     },
     {
-        "name": "Components",
-        "url": "components"
+        "name": "Evaluate",
+        "url": "concepts/evaluation"
     },
     {
-        "name": "Metrics",
-        "url": "metrics"
+        "name": "Generate",
+        "url": "concepts/generation"
     },
     {
         "name": "Use Cases",
@@ -32,30 +51,7 @@
     {
         "name": "API Reference",
         "url": "api"
-    },
-    {
-        "name": "Blog",
-        "url": "https://your-website.com/blog"
     }
-],
-    "navigation": [
-    ,
-    {
-      "group": "Concepts",
-      "pages": [
-        "concepts/generation",
-        "concepts/evaluation"
-      ]
-    },
-    {
-        "group": "Components",
-        "pages": [
-          "components/datasets",
-          "components/features",
-          "components/guidelines",
-          "components/violations"
-        ]
-      }
 ],
     "topbarLinks": [
         {
