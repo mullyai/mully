@@ -30,7 +30,38 @@
                     "get_started/installation.mdx",
                     "get_started/quick_start.mdx"
                 ]
+            },
+            {
+                "group": "Components",
+                "pages": [
+                    "components/datasets.mdx",
+                    "components/reports.mdx",
+                    "components/features.mdx",
+                    "components/guidelines.mdx",
+                    "components/violations.mdx"
+                    
+                ]
+            },
+            {
+                "group": "Concepts",
+                "pages": [
+                    "concepts",
+                    {
+                        "group": "Evaluate",
+                        "pages": [
+                            "concepts/evaluation/evaluation.mdx"
+                        ]
+                    },
+                    {
+                        "group": "Generate",
+                        "pages": [
+                            "concepts/generation/generation.mdx"
+                        ]
+                    }
+                ]
             }
-        ]
-
+        ],
+    "primaryTab" : {
+        "name": "Home"
+    }
 }
