@@ -15,16 +15,7 @@
     "tabs": [
     {
         "name": "Documentation",
-        "url": "get_started",
-        "navigation": [
-            {
-                "group": "Getting Started",
-                "pages": [
-                    "get_started/introduction.mdx",
-                    "get_started/installation.mdx",
-                    "get_started/quick_start.mdx"
-                ]}
-        ]
+        "url": "get_started"
     },
     {
         "name": "Evaluate",
