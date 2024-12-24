@@ -62,6 +62,25 @@
     "topbarCtaButton": {
                 "type": "github",
                 "url": "https://github.com/mintlify/docs"
-              }
+              },
+    "navigation": [
+            { 
+                "group": "Getting Started",
+                "pages": [
+                    {
+                        "name": "Introduction",
+                        "url": "get_started/introduction"
+                    },
+                    {
+                        "name": "Installation",
+                        "url": "get_started/installation"
+                    },
+                    {
+                        "name": "Quick Start",
+                        "url": "get_started/quick_start"
+                    }
+                ]
+            }
+        ]
 
 }
