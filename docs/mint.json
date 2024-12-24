@@ -56,15 +56,12 @@
     "topbarLinks": [
         {
             "name": "Community",
-            "url": "https://mintlify.com/community",
-            "icon": "discord"
-        },
-        {
-            "topbarCtaButton": {
+            "url": "https://mintlify.com/community"
+        }
+    ],
+    "topbarCtaButton": {
                 "type": "github",
                 "url": "https://github.com/mintlify/docs"
-              }            
-        }
-    ]
+              }
 
 }
