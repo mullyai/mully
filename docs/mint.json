@@ -12,21 +12,39 @@
         "dark": "#e8178f",
         "light": "#c23d8d"
     },
-    "navigation": [
+    "tabs": [
     {
-      "group": "Get Started",
-      "pages": [
-        "get_started/introduction",
-        "get_started/installation",
-        "get_started/quickstart"
-      ]
+        "name": "Documentation",
+        "url": "get_started"
     },
+    {
+        "name": "Components",
+        "url": "components"
+    },
+    {
+        "name": "Metrics",
+        "url": "metrics"
+    },
+    {
+        "name": "Use Cases",
+        "url": "examples"
+    },
+    {
+        "name": "API Reference",
+        "url": "api"
+    },
+    {
+        "name": "Blog",
+        "url": "https://your-website.com/blog"
+    }
+],
+    "navigation": [
+    ,
     {
       "group": "Concepts",
       "pages": [
         "concepts/generation",
-        "concepts/evaluation",
-        "concepts/featurization"
+        "concepts/evaluation"
       ]
     },
     {
@@ -38,6 +56,19 @@
           "components/violations"
         ]
       }
-]
+],
+    "topbarLinks": [
+        {
+            "name": "Community",
+            "url": "https://mintlify.com/community",
+            "icon": "discord"
+        },
+        {
+            "topbarCtaButton": {
+                "type": "github",
+                "url": "https://github.com/mintlify/docs"
+              }            
+        }
+    ]
 
 }
