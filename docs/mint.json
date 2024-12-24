@@ -17,23 +17,13 @@
         "name": "Documentation",
         "url": "get_started",
         "navigation": [
-            { 
+            {
                 "group": "Getting Started",
                 "pages": [
-                    {
-                        "name": "Introduction",
-                        "url": "get_started/introduction"
-                    },
-                    {
-                        "name": "Installation",
-                        "url": "get_started/installation"
-                    },
-                    {
-                        "name": "Quick Start",
-                        "url": "get_started/quick_start"
-                    }
-                ]
-            }
+                    "get_started/introduction.mdx",
+                    "get_started/installation.mdx",
+                    "get_started/quick_start.mdx"
+                ]}
         ]
     },
     {
@@ -67,18 +57,9 @@
             { 
                 "group": "Getting Started",
                 "pages": [
-                    {
-                        "name": "Introduction",
-                        "url": "get_started/introduction"
-                    },
-                    {
-                        "name": "Installation",
-                        "url": "get_started/installation"
-                    },
-                    {
-                        "name": "Quick Start",
-                        "url": "get_started/quick_start"
-                    }
+                    "get_started/introduction.mdx",
+                    "get_started/installation.mdx",
+                    "get_started/quick_start.mdx"
                 ]
             }
         ]
